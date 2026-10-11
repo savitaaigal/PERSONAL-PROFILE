@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My CSE education, technical skills and career goals.">
+  <title>About | My CSE Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header">
+    <a class="brand" href="index.html">MyPortfolio<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false"
+            aria-controls="navigation" aria-label="Toggle navigation">☰</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-pressed="false"
+            aria-label="Switch to dark theme">◐</button>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-heading">
+      <p class="eyebrow">ABOUT ME</p>
+      <h1>My learning journey</h1>
+      <p>I am a Computer Science Engineering student working towards a career in software development.</p>
+    </section>
+
+    <div class="cards">
+      <article class="card">
+        <h2>Education</h2>
+        <h3>B.E. Computer Science Engineering</h3>
+        <p>Yenepoya Institue Of Techonology</p>
+        <p>Expected graduation: 2028</p>
+        <p>Currently learning programming, web development and computer science fundamentals.</p>
+      </article>
+
+      <article class="card">
+        <h2>Technical Skills</h2>
+        <h3>HTML and CSS</h3>
+        <div class="progress"><span style="width:75%"></span></div>
+        <h3>JavaScript</h3>
+        <div class="progress"><span style="width:45%"></span></div>
+        <h3>Python</h3>
+        <div class="progress"><span style="width:60%"></span></div>
+        <p class="hint">These bars are examples. Adjust them to reflect your actual skills.</p>
+      </article>
+
+      <article class="card">
+        <h2>Strengths</h2>
+        <ul>
+          <li>Hardworking and responsible</li>
+          <li>Logical problem-solving</li>
+          <li>Quick learner</li>
+          <li>Teamwork</li>
+          <li>Willingness to improve</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Career Goals</h2>
+        <ul>
+          <li>Build practical software projects</li>
+          <li>Improve data structures and algorithms</li>
+          <li>Learn full-stack development</li>
+          <li>Prepare for internships and placements</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span>Savita Aigal</p>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web development and programming projects in my portfolio.">
+  <title>Projects | My CSE Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header">
+    <a class="brand" href="index.html">MyPortfolio<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false"
+            aria-controls="navigation" aria-label="Toggle navigation">☰</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-pressed="false"
+            aria-label="Switch to dark theme">◐</button>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-heading">
+      <p class="eyebrow">MY WORK</p>
+      <h1>Projects I've built</h1>
+      <p>Here are examples of projects to showcase. Keep only projects you have actually completed.</p>
+    </section>
+
+    <div class="cards">
+      <article class="card project-card">
+        <div class="project-art calculator-art" aria-hidden="true">&divide; &nbsp; × &nbsp; + &nbsp; −</div>
+        <h2>Calculator Website</h2>
+        <p>A calculator interface that performs basic arithmetic operations.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+        <a class="text-link" href="contact.html">Ask about this project →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-art portfolio-art" aria-hidden="true">&lt; Portfolio /&gt;</div>
+        <h2>Personal Portfolio</h2>
+        <p>A responsive multi-page website for presenting skills, projects and contact information.</p>
+        <p class="tags">HTML · CSS · Accessibility</p>
+        <a class="text-link" href="index.html">View this portfolio →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-art todo-art" aria-hidden="true">✓ &nbsp; To-do list</div>
+        <h2>To-Do List</h2>
+        <p>A task-list project for practising JavaScript events and updating page content.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+        <a class="text-link" href="contact.html">Ask about this project →</a>
+      </article>
+    </div>
+
+    <p class="notice">
+      Remember to add your real GitHub repository links and live demos when available.
+    </p>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span>Savita Aigal</p>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>
